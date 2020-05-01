@@ -1,0 +1,21 @@
+{
+  "streams": [
+    {
+      "title": "first stream",
+      "description": "This is the first stream test",
+      "id": 1
+    },
+    {
+      "title": "best steam evaah",
+      "description": "stream by 4spam",
+      "userId": "100123041015788054925",
+      "id": 3
+    },
+    {
+      "title": "DIMA playing push 2 gchgch",
+      "description": "Just look at how dima is playing push 2",
+      "userId": "100123041015788054925",
+      "id": 5
+    }
+  ]
+}
