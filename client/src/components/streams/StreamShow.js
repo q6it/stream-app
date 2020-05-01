@@ -22,11 +22,13 @@ class StreamShow extends React.Component {
   }
 
   componentWillMount(){
-    this.flvPlayer.destroy();
+    if(this.flvPlayer) {
+      this.flvPlayer.destroy();
+    }
   }
 
   buildPlayer() {
-    if (this.player || !this.props.stream) {
+    if (this.flvPlayer || !this.props.stream) {
       return;
     }
     const { id } = this.props.match.params;
